@@ -306,17 +306,42 @@ workspace "Central Logistics" "Sistema Modernizado de Seguimiento de Entregas" {
         }
 
         styles {
-            element "Person" { shape Person; background #08427b; color #ffffff }
-            element "Software System" { background #1168bd; color #ffffff }
-            element "External" { background #999999; color #ffffff }
-            element "Container" { background #438dd5; color #ffffff }
-            element "Database" { shape Cylinder; background #2b6cb0; color #ffffff }
-            element "Mobile" { shape MobileDevicePortrait }
-            element "Web Browser" { shape WebBrowser }
-            element "Component" { background #85bbf0; color #000000 }
+            element "Person" {
+                shape Person
+                background #08427b
+                color #ffffff
+            }
+            element "Software System" {
+                background #1168bd
+                color #ffffff
+            }
+            element "External" {
+                background #999999
+                color #ffffff
+            }
+            element "Container" {
+                background #438dd5
+                color #ffffff
+            }
+            element "Database" {
+                shape Cylinder
+                background #2b6cb0
+                color #ffffff
+            }
+            element "Mobile" {
+                shape MobileDevicePortrait
+            }
+            element "Web Browser" {
+                shape WebBrowser
+            }
+            element "Component" {
+                background #85bbf0
+                color #000000
+            }
         }
     }
 }
+
 ```
 
 ---
