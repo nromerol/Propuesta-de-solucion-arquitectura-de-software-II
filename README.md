@@ -320,7 +320,3 @@ workspace "Central Logistics" "Sistema Modernizado de Seguimiento de Entregas" {
 ```
 
 ---
-
-## 8. Justificación (para el debate)
-
-La elección de **N-Capas** se basa principalmente en el atributo de calidad de **escalabilidad y disponibilidad**: centralizar la lógica de negocio en una capa replicable permite absorber el pico de +300% de tráfico en temporada de descuentos sin que un único punto de falla tumbe todo el sistema, algo que Cliente-Servidor no puede ofrecer. Microservicios se descarta por ahora dado que su complejidad operativa (despliegue independiente, mayor superficie de ataque) no se justifica frente al tamaño y madurez actual del equipo y del sistema.
